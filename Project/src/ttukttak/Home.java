@@ -6,6 +6,7 @@ import java.awt.*;
 public class Home extends JFrame{
 	
 	public Home(){
+		setTitle("홈");
 		setSize(1800, 1100);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);

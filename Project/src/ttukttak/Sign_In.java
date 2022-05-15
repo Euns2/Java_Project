@@ -18,8 +18,7 @@ public class Sign_In extends JFrame implements ActionListener{
    
    private JButton loginBtn;
    private JButton signUpBtn;
-private ImageIcon imageicon;
-
+   
    public Sign_In(){
       setSize(510, 370);
       setLayout(new BorderLayout());

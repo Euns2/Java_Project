@@ -7,26 +7,28 @@ import java.awt.*;
 
 public class Menu extends JFrame{
 	public Menu() {
-		setExtendedState(JFrame.MAXIMIZED_BOTH);
+		setTitle("ë©”ë‰´");
+		setSize(1800, 1100);
+		setLocationRelativeTo(null);
 		setLayout(new BorderLayout());
 		
 		JPanel panel = new JPanel();
 		panel.setLayout(new FlowLayout());
 		JMenuBar menuBar = new JMenuBar();
 		
-		Font font = new Font("¸¼Àº °íµñ", Font.BOLD, 30);
+		Font font = new Font("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½", Font.BOLD, 30);
 		
-		JMenu menu1 = new JMenu("ÇÑ½Ä");
+		JMenu menu1 = new JMenu("ï¿½Ñ½ï¿½");
 		menu1.setFont(font);
-		JMenu menu2 = new JMenu("ÀÏ½Ä");
+		JMenu menu2 = new JMenu("ï¿½Ï½ï¿½");
 		menu2.setFont(font);
-		JMenu menu3 = new JMenu("¾ç½Ä");
+		JMenu menu3 = new JMenu("ï¿½ï¿½ï¿½");
 		menu3.setFont(font);
-		JMenu menu4 = new JMenu("Áß½Ä");
+		JMenu menu4 = new JMenu("ï¿½ß½ï¿½");
 		menu4.setFont(font);
-		JMenu menu5 = new JMenu("¾Æ½Ã¾È");
+		JMenu menu5 = new JMenu("ï¿½Æ½Ã¾ï¿½");
 		menu5.setFont(font);
-		JMenu save = new JMenu("ÂòÇÏ±â");
+		JMenu save = new JMenu("ï¿½ï¿½ï¿½Ï±ï¿½");
 		save.setFont(font);
 		
 		menuBar.add(menu1);
