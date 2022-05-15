@@ -29,7 +29,7 @@ public class Sign_In extends JFrame implements ActionListener{
       
       JPanel jp1 = new JPanel(); //상단 패널 추가
       add(jp1, BorderLayout.NORTH); //상단 패널 붙이기
-
+//test
       jp1.setLayout(new BorderLayout()); //패널1의 레이아웃을 보더 레이아웃으로 설정
       
       ImageIcon icon = new ImageIcon("images/logo_white.jpg");
